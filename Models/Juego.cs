@@ -7,7 +7,9 @@ public class Juego
     public int habitacion;
     [JsonProperty]
     public string respuesta;
+    [JsonProperty]
 
+    public int Intento;
     public Juego(string respuesta, int habitacion)
     {
         
