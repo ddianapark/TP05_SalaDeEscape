@@ -8,13 +8,14 @@ public class Juego
     [JsonProperty]
     public string respuesta;
     [JsonProperty]
+    public string nombre;
 
-    public int Intento;
-    public Juego(string respuesta, int habitacion)
+    public Juego(string respuesta, int habitacion, string nombre)
     {
         
         this.respuesta = respuesta;
         this.habitacion = habitacion;
+        this.nombre = nombre;
     }
 
 
