@@ -1,14 +1,21 @@
 ﻿@{
     ViewData["Title"] = "Index";
 }
-<main>
-    <body>
-        <h1>BIENVENIDO A LA MALDICIÓN DE LA PIRÁMIDE</h1>
+<body>
+    <main>
+        <section class = "inicio">
+            <h1>BIENVENIDO A LA MALDICIÓN DE LA PIRÁMIDE</h1>
         
-        <img src="fotos/1.jpg" alt="FOTOS INDEX">
-        <form action='@Url.Action("EntrarHabitacion1", "Home")' method = post>
-            <input type="text" name="nombre"/>
-            <input type="submit" value = "JUGAR">
-        </form>
-    </body>
-</main>
+            <img src="fotos/1.jpg" alt="FOTOS INDEX">
+            <form action='@Url.Action("EntrarHabitacion1", "Home")' method = post>
+                <div>
+                    <h3>Ingerese su nombre:</h3>
+                    <input type="text" name="nombre"/>
+                </div>
+                <h2>Hace siglos, una pirámide fue sellada para contener un antiguo secreto. Los pocos que intentaron entrar jamás regresaron. Hoy, vos decidiste romper el silencio y adentrarte en sus cámaras… Pero no estás solo. Voces olvidadas y guardianes del más allá te observan. Para escapar, deberás resolver los enigmas del faraón.</h2>
+                <h3>¿ESTÁS LISTO PARA JUGAR?</h3>
+                <input type="submit" value = "JUGAR">
+            </form>
+        </section>
+    </main>
+</body>

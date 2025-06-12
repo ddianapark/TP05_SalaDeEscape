@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "HabView3";
+}
+<body>
+    <main>
+        <section class = "hab3">
+            <h1>El Códice del Faraón</h1>
+            <h2>Ingresás a una cámara iluminada por luz solar filtrada. En el centro, un muro cubierto de jeroglíficos. Una voz antigua murmura:</h2>
+            <h3>“Cruza solo si tu alma es ligera. El fuego purifica, la arena confunde, el agua revela, y la pluma juzga.”</h3>
+            <img src="/fotos/a.png" alt="HAB3">
+            <form action='@Url.Action("EntrarHabitacion4", "Home")' method = post>
+                <input type="text" style="text-transform: uppercase;" name = "Respuesta">
+                <input type="submit" value="ENVIAR">
+            </form>
+        </section>
+    </main>
+</body>

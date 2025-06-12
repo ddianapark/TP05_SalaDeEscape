@@ -21,27 +21,27 @@ public class HomeController : Controller
     public IActionResult EntrarHabitacion1(string nombre)
     {
         int numHabitacion = 1;
-        Juego Nuevojuego = new Juego("eco", numHabitacion, nombre);
-        HttpContext.Session.SetString("Game", Objeto.ObjectToString(Nuevojuego));
+        Juego NuevoJuego = new Juego("eco", numHabitacion, nombre);
+        HttpContext.Session.SetString("Game", Objeto.ObjectToString(NuevoJuego));
         
         return View("HabView1");
     }
 
-    public IActionResult EntrarHabitación2(string Respuesta)
+    public IActionResult EntrarHabitacion2(string Respuesta)
     {
-        Juego Nuevojuego;
+        Juego NuevoJuego;
 
-        Nuevojuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
+        NuevoJuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
         
 
-        if (Respuesta == Nuevojuego.respuesta)
+        if (Respuesta == NuevoJuego.respuesta)
         {
-            numHabitacion++;
-            Nuevojuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
-            Nuevojuego.habitacion = numHabitacion;
-            Nuevojuego.respuesta = "FAAP";
+            NuevoJuego.habitacion++;
+            NuevoJuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
+        
+            NuevoJuego.respuesta = "FAAP";
 
-            HttpContext.Session.SetString("Game", Objeto.ObjectToString(Nuevojuego));
+            HttpContext.Session.SetString("Game", Objeto.ObjectToString(NuevoJuego));
             return View("HabView2");
         }
         else
@@ -53,17 +53,15 @@ public class HomeController : Controller
 
     public IActionResult EntrarHabitacion3(string Respuesta)
     {
+        Juego NuevoJuego;
 
-
-        Juego Nuevojuego;
-
-        Nuevojuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
-        Nuevojuego.respuesta = "FAAP";
-        if (Respuesta == Nuevojuego.respuesta)
+        NuevoJuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
+        NuevoJuego.respuesta = "FAAP";
+        if (Respuesta == NuevoJuego.respuesta)
         {
 
-            NuevoJuego.habitación++;
-            HttpContext.Session.SetString("Game", Objeto.ObjectToString(Nuevojuego));
+            NuevoJuego.habitacion++;
+            HttpContext.Session.SetString("Game", Objeto.ObjectToString(NuevoJuego));
             return View("HabView3");
         }
         else
@@ -75,13 +73,13 @@ public class HomeController : Controller
 
     public IActionResult EntrarHabitacion4(string Respuesta)
     {
-        Juego Nuevojuego;
-        Nuevojuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
-        Nuevojuego.respuesta = "231";
-        if (Respuesta == Nuevojuego.respuesta)
+        Juego NuevoJuego;
+        NuevoJuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
+        NuevoJuego.respuesta = "231";
+        if (Respuesta == NuevoJuego.respuesta)
         {
-            NuevoJuego.habitación++;
-            HttpContext.Session.SetString("Game", Objeto.ObjectToString(Nuevojuego));
+            NuevoJuego.habitacion++;
+            HttpContext.Session.SetString("Game", Objeto.ObjectToString(NuevoJuego));
             return View("HabView4");
         }
         else
@@ -95,13 +93,14 @@ public class HomeController : Controller
 
     public IActionResult EntrarHabitacionFinal(string Respuesta)
     {
-        Juego Nuevojuego;
-        Nuevojuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
-        Nuevojuego.respuesta = "ANUBIS";
-        if (Respuesta == Nuevojuego.respuestas)
+        Juego NuevoJuego;
+        NuevoJuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
+        NuevoJuego.respuesta = "ANUBIS";
+        if (Respuesta == NuevoJuego.respuesta)
         {   
-            NuevoJuego.habitación++;
-            Juego Nuevojuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
+            ViewBag.nombre = NuevoJuego.nombre;
+            NuevoJuego.habitacion++;
+            HttpContext.Session.SetString("Game", Objeto.ObjectToString(NuevoJuego));
             return View ("Resultado");
         }
         else

@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "HabView2";
+}
+<body>
+    <main>
+        <section class = "hab2">
+            <h1>Camino del Juicio</h1>
+            <h2>Un pasillo se abre. Al fondo, cuatro puertas resplandecen con símbolos elementales. Una inscripción antigua te guía:</h2>
+            <h3>“Cruza solo si tu alma es ligera. El fuego purifica, la arena confunde, el agua revela, y la pluma juzga.”</h3>
+            <h4>Escribí solo las iniciales y todas juntas</h4>
+            <form action='@Url.Action("EntrarHabitacion3", "Home")' method = post>
+                <input type="text" name = "Respuesta">
+                <input type="submit" value="ENVIAR">
+            </form>
+
+            <img src="/fotos/FUEGO.png" alt="fuego">
+            <img src="/fotos/awita.png" alt="agua">
+            <img src="/fotos/pluma.png" alt="pluma">
+            <img src="/fotos/Reloj.png" alt="reloj">
+        </section>
+    </main>
+</body>

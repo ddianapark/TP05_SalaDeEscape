@@ -8,7 +8,7 @@ public static class Objeto
         return JsonConvert.SerializeObject(obj);
     }
 
-    public static T? StringObject<T>(string txt)
+    public static T? StringToObject<T>(string txt)
     {
         if(string.IsNullOrEmpty(txt))
         {

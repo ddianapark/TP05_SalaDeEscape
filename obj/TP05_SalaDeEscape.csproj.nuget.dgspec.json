@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\tegnologia\\TP_05\\TP05_SalaDeEscape\\TP05_SalaDeEscape.csproj": {}
+    "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\TP05_SalaDeEscape.csproj": {}
   },
   "projects": {
-    "Z:\\tegnologia\\TP_05\\TP05_SalaDeEscape\\TP05_SalaDeEscape.csproj": {
+    "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\TP05_SalaDeEscape.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\tegnologia\\TP_05\\TP05_SalaDeEscape\\TP05_SalaDeEscape.csproj",
+        "projectUniqueName": "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\TP05_SalaDeEscape.csproj",
         "projectName": "TP05_SalaDeEscape",
-        "projectPath": "Z:\\tegnologia\\TP_05\\TP05_SalaDeEscape\\TP05_SalaDeEscape.csproj",
-        "packagesPath": "C:\\Users\\49092487\\.nuget\\packages\\",
-        "outputPath": "Z:\\tegnologia\\TP_05\\TP05_SalaDeEscape\\obj\\",
+        "projectPath": "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\TP05_SalaDeEscape.csproj",
+        "packagesPath": "C:\\Users\\49377760\\.nuget\\packages\\",
+        "outputPath": "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\49092487\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\49377760\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
