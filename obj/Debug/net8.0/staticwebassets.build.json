@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "XCNzX5UkAcFUd3lzACP+6yUo3toyeF3nGlXy9Lhr9sE=",
+  "Hash": "X0OQKTXLQDyspejaIuBC0SPoqeStXSbdoYpAVRipei8=",
   "Source": "TP05_SalaDeEscape",
   "BasePath": "_content/TP05_SalaDeEscape",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\fotos\\awita.png"
+    },
+    {
+      "Identity": "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\wwwroot\\fotos\\egipto.jpg",
+      "SourceId": "TP05_SalaDeEscape",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\wwwroot\\",
+      "BasePath": "_content/TP05_SalaDeEscape",
+      "RelativePath": "fotos/egipto.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fotos\\egipto.jpg"
     },
     {
       "Identity": "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\wwwroot\\fotos\\FUEGO.png",
