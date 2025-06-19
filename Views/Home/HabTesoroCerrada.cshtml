@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "HabTesoroCerrada";
+}
+<body>
+    <main>
+        <section class = "tesoroCerrado">
+            <h2>¡OH NO! ¡La entrada se ha cerrada tendremos que ir por otra salida!</h2>
+
+             <a href='@Url.Action("EntrarHabitacion1", "Home" , new {nombre = @ViewBag.Nombre})'>Robar el oro</a>
+        </section>
+    </main>
+</body>

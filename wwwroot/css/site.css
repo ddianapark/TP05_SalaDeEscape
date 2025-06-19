@@ -2,6 +2,15 @@
 *{
   margin: 0%;
   padding: 0%;
+  border: 1px solid black;
+}
+
+form{
+  border: none;
+}
+
+div{
+  border: none;
 }
 
 .inicio
@@ -17,13 +26,15 @@
   box-shadow: 2px 10px 4px #664423;
   margin: 1%;
   padding: 1%;
+  border: none;
 }
 
 .inicio img{
   width: 40%;
   height:auto;
   margin: 1%;
-  margin-left: 30%
+  margin-left: 30%;
+  border: none;
 }
 .inicio div{
   background-color: #d39459;
@@ -32,6 +43,7 @@
   width: 20%;
   text-align: center;
   margin-left: 40% ;
+  border: none;
 }
 
 .inicio div h3{
@@ -39,6 +51,7 @@
   width: 96%;
   font-size: 3ex;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: none;
 }
 
 .inicio div input{
@@ -47,7 +60,7 @@
   margin: 1%;
   display: flex;
   width: 96%;
-  
+  border: none;
 }
 
 .inicio h2{
@@ -60,6 +73,7 @@
   font-weight: lighter;
   font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: none;
 }
 
 .inicio h3{
@@ -68,6 +82,7 @@
   padding: 1%;
   font-size: 6ex;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: none;
 }
 
 .inicio input {
@@ -77,7 +92,31 @@
   margin: 1%;
   margin-left: 47%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: none;
 }
+
+.tesoro
+{
+  background-image: url("/fotos/HabitaciónTesoro.png");
+  background-size: cover;
+  height: 100vh;
+}
+.tesoroCerrado
+{
+  background-image: url("/fotos/HabitaciónTesoroCerrada.png");
+  background-size: cover;
+  height: 100vh;
+}
+.tesoro h2
+{
+  border: 1px solid white;
+  color: white;
+  background-color:#f1a053bd;
+  width: 50%;
+  font-size: 5ex;
+  margin: 1%;
+}
+.tesoro a
 
 .hab1{
   background-image: url("/fotos/hab1.jpg");  
@@ -93,11 +132,13 @@
   box-shadow: 2px 10px 4px #664423;
   margin: 1%;
   padding: 1%;
+  border: none;
 }
 
 body{
   width: 100%;
-  height: auto;  
+  height: auto;
+  border: none;
 }
 
 .hab1 h3{
@@ -110,6 +151,7 @@ body{
   margin-left: 28%;
   background-color: #bb7e45;
   box-shadow: 3px 1px 3px #664423;
+  border: none;
 }
 
 .hab1 h2{
@@ -122,13 +164,14 @@ body{
   margin-left:22.8%;
   font-style: italic;
   text-align: center;
-
+  border: none;
 }
 
 .hab1 input {
-  margin-left: 40%;
+  margin-left: 38.88%;
   font-size: 3ex;
   padding: 1%;
+  border: none;
 }
 
 .hab1 div input {
@@ -137,12 +180,22 @@ body{
   padding: 0.5%;
   margin-top: 1%;
   text-align: center;
+  border: none
+}
+
+.hab1 form{
+  border: none;
+}
+
+.hab1 div{
+  border: none;
 }
 
 .hab2{
   background-image: url("/fotos/hab2.jpg");  
   background-size: cover;
-  height: 100vh;}
+  height: 100vh;
+}
 
 .hab2 h1{
   font-size: 5ex;
@@ -152,6 +205,7 @@ body{
   box-shadow: 2px 10px 4px #664423;
   margin: 1%;
   padding: 1%;
+  border: none;
 }
 
 .hab2 h2{
@@ -161,13 +215,14 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   width: 40%;
   text-align: center;
-  margin-left: 28%;
+  margin-left: 29%;
   background-color: #bb7e45;
   box-shadow: 3px 1px 3px #664423;
+  border: none;
 }
 
 .hab2 h3{
-  width: 45%;
+  width: 47%;
   height: auto;
   margin: 1%;
   padding: 1%;
@@ -176,10 +231,11 @@ body{
   margin-left:25.7%;
   font-style: italic;
   text-align: center;
+  border: none;
 }
 
 .hab2 h4{
-  margin-left: 42.5%;
+  margin-left: 43%;
   font-size: 2ex;
   background-color: #ebc753;
   padding: 0.5%;
@@ -187,13 +243,15 @@ body{
   text-align: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
+  border: none;
 }
 
 .hab2 input {
-  margin-left: 41.2%;
+  margin-left: 41.8%;
   font-size: 3ex;
   padding: 1%;
   margin-top: 0.5%;
+  border: none;
 }
 
 .hab2 div input {
@@ -201,18 +259,20 @@ body{
   background-color: #ebc753;
   padding: 0.5%;
   margin-top: 0.5%;
+  border: none;
 }
 
 .but{
   width: 8%;
   display: inline-block;
   margin-left: 32%;
-  margin-right: 1%;
+  margin-right: 0.8%;
+  border: none;
 }
 
 .hab2 div img{
   width: 100%;
-
+  border: 1px solid black;
 }
 
 .hab2 img{
@@ -220,13 +280,15 @@ body{
   height: auto;
   border-radius: 100px;
   clear: both;
-  margin-right: 1%;
+  margin-right: 0.8%;
+  border: 1px solid black;
 }
 
 .hab3{
   background-image: url("/fotos/hab3.jpg");  
   background-size: cover;
 }
+
 .hab3 h1{
   font-size: 5ex;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -235,10 +297,10 @@ body{
   box-shadow: 2px 10px 4px #664423;
   margin: 1%;
   padding: 1%;
+  border: none;
 }
 
 .hab3 h2{
-  margin: 3%;
   padding: 1%;
   font-size: 4ex;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -247,6 +309,7 @@ body{
   margin-left: 28%;
   background-color: #bb7e45;
   box-shadow: 3px 1px 3px #664423;
+  border: none;
 }
 
 .hab3 h3{
@@ -259,12 +322,14 @@ body{
   margin-left:25.7%;
   font-style: italic;
   text-align: center;
+  border: none;
 }
 
 .hab3 img{
   margin-left: 5%;
   width: 20%;
   margin-left: 39%;
+  border: none;
 }
 
 .hab3 input {
@@ -272,6 +337,7 @@ body{
   font-size: 3ex;
   padding: 1%;
   margin-top: 0.5%;
+  border: none;
 }
 
 .hab3 div input {
@@ -279,6 +345,7 @@ body{
   background-color: #ebc753;
   padding: 0.5%;
   margin-top: 1%;
+  border: none;
 }
 
 .hab4{
@@ -286,6 +353,7 @@ body{
   background-size: cover;
   height: 100vh;
 }
+
 .hab4 h1{
   font-size: 5ex;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -294,6 +362,7 @@ body{
   box-shadow: 2px 10px 4px #664423;
   margin: 1%;
   padding: 1%;
+  border: none;
 }
 
 .hab4 h2{
@@ -306,6 +375,7 @@ body{
   margin-left: 28%;
   background-color: #bb7e45;
   box-shadow: 3px 1px 3px #664423;
+  border: none;
 }
 
 .hab4 h3{
@@ -317,6 +387,7 @@ body{
   margin-left:33.5%;
   font-style: italic;
   text-align: center;
+  border: none;
 }
 
 .hab4 h4{
@@ -328,12 +399,14 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   margin-top: 1%;
+  border: none;
 }
 .hab4 input {
   margin-left: 41.5%;
   font-size: 3ex;
   padding: 1%;
   margin-top: 0.5%;
+  border: none;
 }
 
 .hab4 div input {
@@ -341,4 +414,37 @@ body{
   background-color: #ebc753;
   padding: 0.5%;
   margin-top: 1%;
+  border: none;
 }
+
+.resultado{
+  background-image: url("/fotos/salida.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.resultado h2{
+  margin: 3%;
+  padding: 1%;
+  font-size: 4ex;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 40%;
+  text-align: center;
+  margin-left: 30%;
+  background-color: #bb7e45;
+  box-shadow: 3px 1px 3px #664423;
+  border: none;
+}
+
+.resultado h1{
+  border: none;
+  background-color:#ebc753;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 60%;
+  text-align: center;
+  box-shadow: 3px 1px 3px #664423;
+  padding: 1%;
+  margin-left: 20%;
+  font-size: 6ex;
+}
+

@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\fotos\\HAB2.jpg"
     },
     {
+      "Id": "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\wwwroot\\fotos\\HabitaciónTesoro.png",
+      "PackagePath": "staticwebassets\\fotos\\HabitaciónTesoro.png"
+    },
+    {
+      "Id": "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\wwwroot\\fotos\\HabitaciónTesoroCerrada.png",
+      "PackagePath": "staticwebassets\\fotos\\HabitaciónTesoroCerrada.png"
+    },
+    {
       "Id": "Z:\\2025 4IC\\PROGRAMACION\\VS Code\\TP05_SalaDeEscape\\wwwroot\\fotos\\Reloj.png",
       "PackagePath": "staticwebassets\\fotos\\Reloj.png"
     },

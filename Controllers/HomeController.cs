@@ -16,9 +16,23 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+       
         return View();
     }
-    public IActionResult EntrarHabitacion1(string nombre)
+      public IActionResult EntrarTesoro(string nombre)
+    {
+         
+        ViewBag.Nombre = nombre;
+        return View("HabTesoro");
+    }
+       public IActionResult EntrarTesoroCerrada(string nombre)
+    {
+        
+       ViewBag.Nombre = nombre;
+
+        return View("HabTesoroCerrada");
+    }
+       public IActionResult EntrarHabitacion1(string nombre)
     {
         int numHabitacion = 1;
         Juego NuevoJuego = new Juego("eco", numHabitacion, nombre);
