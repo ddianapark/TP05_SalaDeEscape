@@ -84,6 +84,18 @@ div{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: none;
 }
+.inicio div input{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+  border: 1px solid rgb(116, 116, 116);
+}
+
+.inicio div input:hover{
+  background-color: rgb(241, 241, 241);
+  box-shadow: none;
+}
 
 .inicio input {
   font-size: 5ex;
@@ -93,6 +105,15 @@ div{
   margin-left: 47%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+
+.inicio input:hover{
+  box-shadow: none;
+  background-color: #ffdd6b;
+  box-shadow: 0px 0px 10px whitesmoke;
+
 }
 
 .tesoro
@@ -109,15 +130,78 @@ div{
 }
 .tesoro h2
 {
-  border: 1px solid white;
-  color: white;
-  background-color:#f1a053bd;
+  border: 2px solid black;
+  color: black;
+  background-color:#eeb54a;
   width: 50%;
   font-size: 5ex;
   margin: 1%;
+  margin-bottom: 35%;
+  padding: 1%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
 }
-.tesoro a
 
+.tesoro a{
+  border: 2px solid rgba(255, 255, 255, 0);
+  margin-left: 35%;
+  font-size: xx-large;
+  padding: 1%;
+  background-color: #f19f5300;
+  color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  transition: 1.5s;
+}
+
+.tesoro a:hover{
+  margin-left: 35%;
+  font-size: xx-large;
+  padding: 1%;
+  background-color: #f19f53;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.tesoroCerrado h2{
+  border: 2px solid black;
+  color: black;
+  background-color:#eeb54a;
+  width: 50%;
+  font-size: 5ex;
+  margin: 1%;
+  margin-bottom: 25%;
+  padding: 1%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+ 
+}
+.tesoroCerrado a{
+  border: 2px solid rgba(255, 255, 255, 0);
+  margin-left: 12.5%;
+  font-size: large;
+  padding: 1%;
+  background-color: #f19f5300;
+  color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  border-radius: 5px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  transition: 1.5s;
+}
+
+.tesoroCerrado a:hover{
+  margin-left: 11%;
+  font-size: x-large;
+  padding: 1%;
+  background-color: #f19f53;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
 .hab1{
   background-image: url("/fotos/hab1.jpg");  
   background-size: cover;
@@ -168,19 +252,26 @@ body{
 }
 
 .hab1 input {
-  margin-left: 38.88%;
+  margin-left: 42%;
   font-size: 3ex;
   padding: 1%;
   border: none;
 }
 
 .hab1 div input {
-  margin-left: 46%;
+  margin-left: 47%;
   background-color: #ebc753;
   padding: 0.5%;
   margin-top: 1%;
   text-align: center;
-  border: none
+  border: none;
+  box-shadow: 0px 0px 10px black;
+}
+
+.hab1 div input:hover{
+  box-shadow: none;
+  background-color: #ffdd6b;
+  box-shadow: 0px 0px 10px whitesmoke;
 }
 
 .hab1 form{
@@ -260,8 +351,14 @@ body{
   padding: 0.5%;
   margin-top: 0.5%;
   border: none;
+  box-shadow: 0px 0px 10px black;
 }
 
+.hab2 div input:hover{
+  box-shadow: none;
+  background-color: #ffdd6b;
+  box-shadow: 0px 0px 10px whitesmoke;
+}
 .but{
   width: 8%;
   display: inline-block;
@@ -273,6 +370,14 @@ body{
 .hab2 div img{
   width: 100%;
   border: 1px solid black;
+  opacity: 0%;
+  transition: 1s;
+}
+
+.hab2 div img:hover{
+  width: 100%;
+  border: 1px solid black;
+  opacity: 100%;
 }
 
 .hab2 img{
@@ -281,7 +386,19 @@ body{
   border-radius: 100px;
   clear: both;
   margin-right: 0.8%;
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: 1s;
+  opacity: 0%;
+}
+
+.hab2 img:hover{
+  width: 8%;
+  height: auto;
+  border-radius: 100px;
+  clear: both;
+  margin-right: 0.8%;
   border: 1px solid black;
+  opacity: 100%;
 }
 
 .hab3{
@@ -326,9 +443,8 @@ body{
 }
 
 .hab3 img{
-  margin-left: 5%;
-  width: 20%;
-  margin-left: 39%;
+  width: 18%;
+  margin-left: 40%;
   border: none;
 }
 
@@ -346,8 +462,14 @@ body{
   padding: 0.5%;
   margin-top: 1%;
   border: none;
+  box-shadow: 0px 0px 10px black;
 }
 
+.hab3 div input:hover{
+  box-shadow: none;
+  background-color: #ffdd6b;
+  box-shadow: 0px 0px 10px whitesmoke;
+}
 .hab4{
   background-image: url("/fotos/hab4.jpg");
   background-size: cover;
@@ -415,8 +537,14 @@ body{
   padding: 0.5%;
   margin-top: 1%;
   border: none;
+  box-shadow: 0px 0px 10px black;
 }
 
+.hab4 div input:hover{
+  box-shadow: none;
+  background-color: #ffdd6b;
+  box-shadow: 0px 0px 10px whitesmoke;
+}
 .resultado{
   background-image: url("/fotos/salida.jpg");
   background-size: cover;

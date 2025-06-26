@@ -19,22 +19,24 @@ public class HomeController : Controller
        
         return View();
     }
-      public IActionResult EntrarTesoro(string nombre)
+    public IActionResult EntrarTesoro(string nombre)
     {
-         
+        int numHabitacion = 0;
+        Juego NuevoJuego = new Juego("eco", numHabitacion, nombre);
+        HttpContext.Session.SetString("Game", Objeto.ObjectToString(NuevoJuego));
+        
         ViewBag.Nombre = nombre;
         return View("HabTesoro");
     }
-       public IActionResult EntrarTesoroCerrada(string nombre)
+    public IActionResult EntrarTesoroCerrada(string nombre)
     {
-        
-       ViewBag.Nombre = nombre;
-
+        ViewBag.Nombre = nombre;
         return View("HabTesoroCerrada");
     }
        public IActionResult EntrarHabitacion1(string nombre)
     {
         int numHabitacion = 1;
+        
         Juego NuevoJuego = new Juego("eco", numHabitacion, nombre);
         HttpContext.Session.SetString("Game", Objeto.ObjectToString(NuevoJuego));
         
@@ -53,7 +55,7 @@ public class HomeController : Controller
             NuevoJuego.habitacion++;
             NuevoJuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
         
-            NuevoJuego.respuesta = "FAAP";
+            NuevoJuego.respuesta = "faap";
 
             HttpContext.Session.SetString("Game", Objeto.ObjectToString(NuevoJuego));
             return View("HabView2");
@@ -70,7 +72,7 @@ public class HomeController : Controller
         Juego NuevoJuego;
 
         NuevoJuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
-        NuevoJuego.respuesta = "FAAP";
+        NuevoJuego.respuesta = "afap";
         if (Respuesta == NuevoJuego.respuesta)
         {
 
@@ -109,7 +111,7 @@ public class HomeController : Controller
     {
         Juego NuevoJuego;
         NuevoJuego = Objeto.StringToObject<Juego>(HttpContext.Session.GetString("Game"));
-        NuevoJuego.respuesta = "ANUBIS";
+        NuevoJuego.respuesta = "anubis";
         if (Respuesta == NuevoJuego.respuesta)
         {   
             ViewBag.nombre = NuevoJuego.nombre;
